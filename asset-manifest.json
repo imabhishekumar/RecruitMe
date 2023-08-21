@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/recruitMe/static/css/main.749e2803.css",
+    "main.js": "/recruitMe/static/js/main.ede852d7.js",
+    "static/media/home.png": "/recruitMe/static/media/home.26b6a3e18ce825acc4ad.png",
+    "static/media/intro.jpg": "/recruitMe/static/media/intro.2c58ef1942a6330498b8.jpg",
+    "static/media/service3.jpg": "/recruitMe/static/media/service3.a2ff8650475546d1eabc.jpg",
+    "static/media/service4.jpg": "/recruitMe/static/media/service4.ca230657489cde3bba15.jpg",
+    "static/media/service1.jpg": "/recruitMe/static/media/service1.9712d6e92baa0de925bd.jpg",
+    "static/media/service2.jpg": "/recruitMe/static/media/service2.d328b2442c7801639b80.jpg",
+    "static/media/dream11.png": "/recruitMe/static/media/dream11.fcb853b08249a8fb9fbb.png",
+    "static/media/flipkart.svg": "/recruitMe/static/media/flipkart.adcc164207bafeb8a70556927382ab09.svg",
+    "static/media/phonepe.svg": "/recruitMe/static/media/phonepe.560c63952e425af55af80cd4d494ed71.svg",
+    "static/media/paypal.svg": "/recruitMe/static/media/paypal.e533f90e437770a30c7bc42b1b14fa39.svg",
+    "static/media/audible.svg": "/recruitMe/static/media/audible.5275d19ef981cd8c934a79fae26b6fd4.svg",
+    "static/media/airbnb.svg": "/recruitMe/static/media/airbnb.9c1cca0e42bc30ec0b76fefa85cdbadc.svg",
+    "static/media/mastercard.svg": "/recruitMe/static/media/mastercard.c8bcbab93202bb632967bcfa2eb83d04.svg",
+    "static/media/paytm.svg": "/recruitMe/static/media/paytm.65dbc2043f953c0ca5e05e4548cd476f.svg",
+    "static/media/canon.svg": "/recruitMe/static/media/canon.90388b5adaad491304bbe9e2d697bbd7.svg",
+    "static/media/swiggy.svg": "/recruitMe/static/media/swiggy.0e72e7a693390ede1e36e3ce1bc793f8.svg",
+    "index.html": "/recruitMe/index.html",
+    "static/media/microsoft.svg": "/recruitMe/static/media/microsoft.0070292449bc986fc7c2cdae2a30dc70.svg",
+    "main.749e2803.css.map": "/recruitMe/static/css/main.749e2803.css.map",
+    "main.ede852d7.js.map": "/recruitMe/static/js/main.ede852d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.749e2803.css",
+    "static/js/main.ede852d7.js"
+  ]
+}
