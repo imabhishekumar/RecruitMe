@@ -1,0 +1,641 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.navbar{
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+p{
+  color:#666;
+}
+
+.dot{
+  background-color:#f36b21; 
+  width:8px;
+  height:8px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+.bg-body-tertiary{
+  background-color: #fff !important;
+}
+
+.navbar-brand{
+  font-size: 1.5em;
+  color:#0b3954;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #f36b21;
+}
+
+.nav-link:hover{
+  color: #f36b21;
+}
+
+.dropdown-item:not(:last-child){
+  border-bottom: 1px solid #999;
+}
+.dropdown-item{
+  padding: 15px 20px;
+}
+
+.dropdown-menu{
+  width:270px;
+  --bs-dropdown-link-active-bg: none;
+  --bs-dropdown-link-active-color: #000;
+  --bs-dropdown-padding-y: 0rem;
+  --bs-dropdown-link-hover-bg: #ff8b4d;
+  --bs-dropdown-link-hover-color:#fff;
+}
+
+#appointment{
+  display: flex;
+  color:#fff;
+  background-color: #f36b21;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#appointment:hover{
+  /* color: #fff;
+  background-color: #f36b21;
+  transition-duration: 400ms;
+  transition-timing-function: linear; */
+  background-color: #000;
+  transition-duration: 600ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* #appointment:hover > div:not(span){
+  color:#000;
+  background-color: #fff;
+  transition-duration: 400ms;
+  transition-timing-function: linear;
+} */
+
+#appointment span{
+  padding: 0px 30px;
+}
+
+#appointment div:not(span){
+  color:#000;
+  background-color: #ffff;
+  width:50px;
+  border-radius: 7px;
+  padding:10px 10px;
+  margin: 7px;
+}
+
+.sticky-nav {
+  position: fixed;
+  width: 100%;
+}
+
+.arrow{
+  font-size: 25px;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+#home > img{
+  max-width: 100%;
+  max-height: 100%;
+  /* transform:  translateX(50px) translateY(-40px);  */
+  /* border-radius: 11% 49% 27% 11% / 15% 0% 57% 17%;
+   */
+   /* border-radius: 55% 19% 29% 19% / 35% 25% 25% 15%;
+   border-left: 30px solid #e37954; */
+}
+
+.home-container{
+  /* position: absolute; */
+  background-color:  #fb8459 ;
+  padding-bottom: 150px;
+}
+
+/* .row > *{
+  padding-right: 0px;
+} */
+
+.intro{
+  position: absolute;
+  top:350px;
+  left:12%
+}
+
+.intro #para1{
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.intro #para2, #para3{
+display: block;
+font-size: 50px;
+font-family: 'Nunito', sans-serif;
+color:#fff;
+}
+
+#para2 span{
+  color:#000;
+}
+
+.intro button{
+  color:#fff;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-family: 'Mulish', sans-serif;
+  padding: 15px 35px;
+  font-size: 14px;
+}
+
+.intro button:hover{
+  background-color: #000;
+  transition-duration: 1s;
+  border: 2px solid #000;
+
+}
+
+/* Contact Section */
+
+.message{
+  background-color: #fff;
+  padding:50px;
+  margin:-75px 150px;
+  margin-bottom: 150px;
+  border-radius: 20px;
+  box-shadow: 10px 7px 15px -9px #f36b21;
+  -webkit-box-shadow: 10px 7px 15px -9px #f36b21;
+  -moz-box-shadow: 10px 7px 15px -9px #f36b21;
+}
+
+.message > div>div{
+  padding-right:20px;
+}
+
+
+.message .p-25{
+  padding-bottom: 25px;
+}
+
+
+.form-label{
+  color:#888;
+}
+
+
+.message-text ::placeholder, .message-text{
+    color:#000;
+    font-weight: 600;
+    min-width: 100%;
+}
+
+
+.message-button, .card button{
+  color:#fff;
+  background-color: #000;
+  outline: none;
+  border: 2px solid white;
+  min-width: 100%;
+  padding:15px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.message-button:hover, .card button:hover{
+  background-color: #FF5733;
+  transition-duration: 300ms;
+}
+
+
+/* Intro section */
+
+.who_we_are img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+}
+
+.who_we_are #div2{
+  padding: 50px;
+}
+
+.who_we_are .para3, .values p:last-child{
+  font-size: 16px;
+  color: #636363;
+}
+
+.who_we_are #para1{
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: 'Mulish', sans-serif;
+  color: #636363;
+}
+
+.who_we_are #para2{
+  font-size: 35px;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.who_we_are #para2 span{
+  color:#f36b21;
+}
+
+.values{
+  margin-top: 40px;
+}
+.values p:first-child{
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.check-icon{
+  font-size: 30px;
+  color:#f36b21;
+  margin:0px 20px;
+}
+
+/* Card section */
+
+.card-wrapper{
+  background-color: #000e2e;
+  padding: 120px 0px ;
+}
+
+.cards{
+  margin: 0px 80px;
+}
+
+.cards > p{
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color:#fff;
+}
+
+.cards >p >span{
+  color: #f36b21;
+}
+
+.card{
+  padding:10px;
+  margin-top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card-body{
+  padding:25px;
+}
+.card-title{
+  margin-bottom: 20px;;
+}
+
+.card-subtitle{
+  color:#f36b21;
+}
+
+.card-text{
+  font-size: 16px;
+}
+
+.card button{
+  color:#fff
+}
+
+
+/* Hire companies section */
+
+.hire{
+  padding: 80px;
+}
+
+.hire .cards{
+  margin-bottom: 70px;
+}
+
+.hire-icon{
+  padding:50px;
+  margin-top: 40px;
+}
+
+.hire-icon img{
+  width:100px;
+  height:100px;
+  margin-top: 40px;
+}
+
+
+/* Connect Us section  */
+
+.connect{
+  /* padding:60px; */
+  padding:100px;
+  background-color: #f7f7f7;
+}
+
+.connect > p{
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+  color:#000;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+
+#connect-us-text{
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #fff;
+}
+
+#connect-us-text p{
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+}
+
+#connect-us-text img{
+  border-radius: 10px;
+  width:100%;
+  height:100%;
+}
+
+#connect-us-form{
+  background-color: #000e2e;
+  padding: 60px;
+  border-radius: 10px;
+  margin-top: 180px;
+}
+
+/* Footer section  */
+
+
+.footer{
+  padding:80px;
+}
+
+.footer div{
+  padding: 20px;
+}
+
+.footer-header{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+ul{
+  padding-left: 0px;
+}
+
+ul li{
+  color: #666;
+  font-size: 16px;
+  list-style: none;
+  margin-bottom: 6px;
+}
+
+ul li:hover{
+  color:#f36b21;
+  cursor: pointer;
+}
+
+#footer-intro p{
+  margin-top: 20px;
+}
+
+.footer-icons{
+  color:#000;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.footer-icons:hover{
+  color:#f36b21;
+}
+
+@media (max-width: 992px){
+  .home-container{
+    padding-bottom: 100px;
+    top:60px;
+  }
+  
+ .intro{
+    top:250px;
+    left:3%
+  }
+
+.intro #para1{
+    font-size: 12px;
+  }
+
+.intro #para2, #para3{
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+    color:#fff;
+  }
+
+
+.intro button{
+    padding: 12px 25px;
+    font-size: 12px;
+  }
+
+
+  .message{
+    margin:-75px 100px;
+    margin-bottom: 100px;
+  }
+
+  #connect-us-form{
+    margin-top: 60px;
+  }
+
+}
+
+@media (max-width: 768px){
+  .intro{
+    top:120px;
+    left:3%
+  }
+
+  .cards{
+    margin: 40px;
+  }
+  
+  .card-body{
+    padding:15px;
+  }
+  
+  
+  .card-text{
+    font-size: 14px;
+  }
+  
+
+.intro #para1{
+    font-size: 10px;
+  }
+
+.intro #para2, #para3{
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    color:#fff;
+  }
+
+
+.intro button{
+    padding: 10px 22px;
+    font-size: 10px;
+  }
+
+  .message{
+    padding:30px;
+    margin:-75px 50px;
+    margin-bottom: 100px;
+  }
+
+  .footer{
+    padding:50px;
+  }
+
+}
+
+@media (max-width: 576px){
+  .home-container{
+    background-color:  #FF5733 ;
+    padding-bottom: 90px;
+  }
+
+  .home-container{
+    top:60px
+  }
+
+  .intro{
+    top:90px;
+    left:3%
+  }
+
+.intro #para1{
+    font-size: 7px;
+  }
+
+.intro #para2, #para3{
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    color:#fff;
+  }
+
+.intro p{
+  margin-bottom: 5px;
+}
+
+
+.intro button{
+    padding: 6px 12px;
+    font-size: 6px;
+  }
+
+  .cards{
+    margin: 40px;
+  }
+  .card-wrapper{
+    padding: 80px 0px ;
+  }
+  
+  .cards > p{
+    font-size: 20px;
+  }
+  
+  
+  .card{
+    padding:10px;
+    margin: 40px 20px 20px 20px;
+  }
+  
+  .card-body{
+    padding:15px;
+  }
+  .card-title{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .card-subtitle{
+    font-size: 14px;
+  }
+  
+  .card-text{
+    font-size: 14px;
+  }
+  
+  
+  .hire-icon img{
+    width:50px;
+    height:50px;
+    margin-top: 20px;
+  }
+
+  .connect{
+    padding:60px 30px;
+  }
+  
+  .connect > p{
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  
+  
+  
+  #connect-us-text{
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  #connect-us-text p{
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  #connect-us-form{
+    padding: 40px;
+    margin-top: 80px;
+  }
+
+  .hire{
+    padding: 40px;
+  }
+  
+  .footer{
+    padding:10px;
+  }
+
+  /* #home > img{
+     border-left: 15px solid #e37954;
+  } */
+}
